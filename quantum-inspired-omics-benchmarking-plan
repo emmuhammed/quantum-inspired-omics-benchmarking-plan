@@ -1,0 +1,39 @@
+# Assumptions and Limitations
+
+## Purpose
+
+This document describes the assumptions and limitations of this exploratory quantum-inspired omics benchmarking repository.
+
+## Assumptions
+
+- The example dataset is simulated and used only for workflow demonstration.
+- The simulated data represent a high-dimensional omics-style structure, with more features than biological groups.
+- A small group-associated signal is added to selected features to support method benchmarking.
+- Classical PCA and kernel-based modelling are used as baseline approaches.
+- The workflow is designed to demonstrate reproducible structure, not final biological interpretation.
+
+## Limitations
+
+- The repository does not yet implement a true quantum computing model.
+- The current scripts use classical machine-learning and statistical approaches.
+- The simulated dataset is simplified and does not capture all properties of real omics data.
+- Real omics datasets may include batch effects, missing values, compositional constraints, technical noise and complex biological confounders.
+- The current benchmarking does not yet include quantum simulators, quantum kernels or quantum machine-learning libraries.
+
+## Future extensions
+
+Future versions of this repository may include:
+
+- quantum-inspired feature mapping
+- kernel comparison across linear, polynomial and radial basis function methods
+- comparison with classical dimensionality reduction methods
+- integration with Qiskit or PennyLane
+- quantum kernel simulations
+- benchmarking on public omics datasets
+- reporting of computational cost, interpretability and model limitations
+
+## Relevance to quantum omics
+
+This repository documents an active transition from classical statistical omics workflows toward quantum-inspired approaches for high-dimensional biological data.
+
+It is intended to support transparent, reproducible and critically evaluated method development at the interface of omics, statistics and quantum-enabled data analysis.

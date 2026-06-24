@@ -30,7 +30,23 @@ Quantum-inspired methods, including kernel-based feature mappings and alternativ
 4. Compare model performance using transparent benchmarking metrics
 5. Document assumptions and limitations
 6. Identify future extensions toward quantum computing simulators and quantum machine-learning libraries
+## Repository structure
 
+```text
+quantum-inspired-omics-benchmarking-plan/
+├── scripts/
+│   ├── simulate_high_dimensional_omics.py
+│   ├── classical_pca_benchmark.py
+│   └── kernel_model_benchmark.py
+├── docs/
+│   ├── assumptions_and_limitations.md
+│   └── how_to_run.md
+├── data/
+├── results/
+├── figures/
+├── README.md
+├── .gitignore
+└── LICENSE
 ## Data
 
 This repository uses simulated example data only. No confidential, unpublished or identifiable research data are included.
